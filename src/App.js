@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Title from './components/Title';
-
+import Title from './components/Title/Title';
 
 class App extends Component {
 
@@ -10,7 +9,7 @@ class App extends Component {
     let title = document.getElementById('versionStatement');
     let upgradeButton = document.getElementById('upgradeButton');
 
-    title.textContent = "Helle World 4.0";
+    title.textContent = "Hello World 4.0";
     upgradeButton.style.display = "none";
   }
 
